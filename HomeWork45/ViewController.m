@@ -73,7 +73,7 @@ static NSInteger contentBottomInset = 70;
          
          NSLog(@"isDownloading = NO");
          
-         [self simpleAnimate];
+         //[self simpleAnimate];
          
      } onFailure:^(NSError *error, NSInteger statusCode) {
                   
@@ -203,6 +203,8 @@ static NSInteger contentBottomInset = 70;
         OVUser *friend = [self.friendsArray objectAtIndex:indexPath.row];
         
         cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", friend.firstName, friend.lastName];
+        [cell.imageView.layer setMasksToBounds:YES];
+        [cell.imageView.layer setCornerRadius:cell.contentView.frame.size.height / 2];
         
         NSURLRequest *request = [NSURLRequest requestWithURL:friend.imageURL];
         

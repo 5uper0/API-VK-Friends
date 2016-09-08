@@ -154,7 +154,9 @@ static NSInteger contentBottomInset = 70;
         OVUser *follower = [self.followersArray objectAtIndex:indexPath.row];
         
         cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", follower.firstName, follower.lastName];
-        
+        [cell.imageView.layer setMasksToBounds:YES];
+        [cell.imageView.layer setCornerRadius:cell.contentView.frame.size.height / 2];
+
         NSURLRequest *request = [NSURLRequest requestWithURL:follower.imageURL];
         
         __weak UITableViewCell *weakCell = cell;

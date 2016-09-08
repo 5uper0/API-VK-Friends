@@ -157,7 +157,9 @@ static NSInteger contentBottomInset = 70;
         NSURLRequest *request = [NSURLRequest requestWithURL:subscription.imageURL];
         
         cell.imageView.image = nil;
-        
+        [cell.imageView.layer setMasksToBounds:YES];
+        [cell.imageView.layer setCornerRadius:cell.contentView.frame.size.height / 2];
+
         __weak UITableViewCell *weakCell = cell;
         
         [cell.imageView
