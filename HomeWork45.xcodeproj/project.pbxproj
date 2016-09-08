@@ -40,6 +40,7 @@
 		AC5BC0EA1D3B986900E71D6C /* OVFollowersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC0E91D3B986900E71D6C /* OVFollowersTableViewController.m */; };
 		AC5BC0ED1D3BA51400E71D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5BC0EB1D3BA51400E71D6C /* Main.storyboard */; };
 		AC5BC0F21D3BB1CF00E71D6C /* OVSubscriptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC0F11D3BB1CF00E71D6C /* OVSubscriptionsTableViewController.m */; };
+		ACA14CA71D816C3B0000C3F9 /* VK-API-Friends.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACA14CA61D816C3B0000C3F9 /* VK-API-Friends.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		AC5BC0EC1D3BA51400E71D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC5BC0F01D3BB1CF00E71D6C /* OVSubscriptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OVSubscriptionsTableViewController.h; sourceTree = "<group>"; };
 		AC5BC0F11D3BB1CF00E71D6C /* OVSubscriptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OVSubscriptionsTableViewController.m; sourceTree = "<group>"; };
+		ACA14CA61D816C3B0000C3F9 /* VK-API-Friends.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "VK-API-Friends.gif"; path = "Screenshots/VK-API-Friends.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		AC1D76F61D38FDE800106558 = {
 			isa = PBXGroup;
 			children = (
+				ACA14CA51D816C310000C3F9 /* Screenshots */,
 				AC1D77011D38FDE800106558 /* HomeWork45 */,
 				AC1D771E1D38FDE800106558 /* HomeWork45Tests */,
 				AC1D77291D38FDE800106558 /* HomeWork45UITests */,
@@ -317,6 +320,14 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		ACA14CA51D816C310000C3F9 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ACA14CA61D816C3B0000C3F9 /* VK-API-Friends.gif */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,6 +436,7 @@
 			files = (
 				AC1D77151D38FDE800106558 /* LaunchScreen.storyboard in Resources */,
 				AC1D77121D38FDE800106558 /* Assets.xcassets in Resources */,
+				ACA14CA71D816C3B0000C3F9 /* VK-API-Friends.gif in Resources */,
 				AC139EE71D391E2F00D528F7 /* user_male4_32px.png in Resources */,
 				AC5BC0ED1D3BA51400E71D6C /* Main.storyboard in Resources */,
 			);
